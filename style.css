@@ -1,0 +1,17 @@
+body {
+    background-image: url("unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: block;
+    width:500px;
+    margin:200px auto;
+    color:green;
+}
+.hover{
+    display: none;
+}
+form:hover .hover{
+    display: block;
+}
